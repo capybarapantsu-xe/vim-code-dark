@@ -110,7 +110,7 @@ let s:cdDiffGreenLight = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'
 let s:cdDiffBlueLight = {'gui': '#87d7ff', 'cterm': s:cterm0C, 'cterm256': '117'}
 let s:cdDiffBlue = {'gui': '#005f87', 'cterm': s:cterm0D, 'cterm256': '24'}
 
-let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'} 
+let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}
 let s:cdSearch = {'gui': '#264F78', 'cterm': s:cterm03, 'cterm256': '24'}
 
 " Syntax colors:
@@ -301,6 +301,7 @@ call <sid>hiTS('@text.literal', 'TSLiteral', s:cdYellowOrange, {}, 'none', {})
 call <sid>hiTS('@text.uri', 'TSURI', s:cdYellowOrange, {}, 'none', {})
 " Tags
 call <sid>hiTS('@tag', 'TSTag', s:cdBlue, {}, 'none', {})
+call <sid>hiTS('@tag.attribute', 'TSTagAttribute', s:cdLightBlue, {}, 'none', {})
 call <sid>hiTS('@tag.delimiter', 'TSTagDelimiter', s:cdGray, {}, 'none', {})
 
 " Markdown:
